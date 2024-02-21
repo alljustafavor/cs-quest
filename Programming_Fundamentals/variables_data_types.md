@@ -114,9 +114,28 @@ print(b[2:5]) # output: "llo"
     b = "Hello, World!"
     print(b[:5]) # output: "Hello"
   ```
+ ### Slice To the End
+ By leaving out the end index, the range will go to hte end:
 
-  
+ ```python
+    b = "Hello, World!"
+    print(b[2:]) # output: "llo, World!"
+  ```
+ ### Negative Indexing
+ Use negative indexes to start the slice from the end of the string
 
+ ex desc:
+ * Get the characters:
+ * From "o" in "World!" (position -5) To, but not included "d" in "World!" (position -2):
+
+  ```python
+    b = "Hello, World!"
+    print(b[-5:-2]) # output: "orl"
+  ```
+## Modify Strings
+Python has a set of built-in methods that you can use on strings.
+
+  ### Upper Case
 
 
 
