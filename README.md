@@ -5,7 +5,7 @@
 ## Core Areas
 
 * **Programming Fundamentals**
-    * Variables and data types
+    * [Variables and data types](Programming_Fundamentals/variables_data_types.md) 
     * Operators
     * Control flow (conditionals, loops)
     * Functions
