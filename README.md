@@ -9,7 +9,33 @@
     * Operators
     * Control flow (conditionals, loops)
     * Functions
-    * Basic object-oriented programming (OOP) concepts
+      
+    * **Object-Oriented Mastery**
+      * Classes, inheritance, polymorphism in depth
+      * Abstract classes and interfaces (using Python's `abc` module)
+      * Design patterns
+
+   * **Functional Python**
+      * Higher-order functions, `map`, `filter`, `reduce`
+      * Lambda expressions
+      * Closures 
+
+   * **Pythonic Power**
+      * Iterators, generators, and yield
+      * Decorators for powerful code modification
+      * Metaclasses (for the truly ambitious!)
+
+   **Essential Libraries**
+      * **NumPy:** High-performance arrays and numerical computing
+      * **Pandas:** Data analysis and manipulation
+      * **Scikit-learn:** Machine Learning 
+      * **Requests:** HTTP interactions 
+
+   **Additional Advanced Topics**
+      * **Concurrency and Parallelism:** Threads, processes, asyncio
+      * **Testing:** Unit testing, integration testing, mocking
+      * **Regular Expressions**
+      * **Deployment and Packaging** 
 
 * **Data Structures and Algorithms**
     * Arrays
@@ -114,6 +140,9 @@
 
 * **Operating Systems**
     * Processes and threads
+    * Process Forking
+    * CPU Interrupts
+    * Lock / Mutex / Semaphore
     * Memory management 
     * File systems
     * Scheduling
