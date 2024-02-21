@@ -24,17 +24,41 @@
       * Complete Binary Tree
       * Balanced Tree
       * Unbalanced Tree
+      * **Back Tracking**
+        * Finding Hamlitonian Paths
+        * Solving N Queen Problem
+        * Maze Solving Problem
+        * The Knight's Tour Problem
+        * Rabin-Karp Algorithm
     * Graphs
       * Directed Graph
       * Undirected Graph
       * Spanning Tree
       * Adjacency Matrix
       * Adjacency List
+        * **Greedy Algorithms**
+        * Huffman Coding
+        * Kruskal's Algorithm
+        * Ford-Fulkerson Algoritm
+        * Prim's Algorithm
     * Heap
 * **Asymptotic Notation**
   * Big-O Notation
   * Big-Θ Notation
   * Big-Ω Notation
+  * **Basic Math Skills**
+    * Probabilliy
+    * Combinatorics
+    * **Complexity Classes**
+      * P
+      * NP
+      * Co-NP
+      * NP Hard
+      * P = NP
+      * *NP Complete*
+         * Travelling Salesman Problem
+         * Knapsac Problem
+         * Longest Path Problem
 
 * **Algorithms**
   * **Sorting**
@@ -66,6 +90,21 @@
     * LRU Cache
     * LFU Cache
     * MFU Cache
+  * **String Search & Manipulations**
+    * Search Pattern in Text
+    * Suffix Arrays
+    * **Substring Search**
+      * Brute Force Search
+      * Knuth-Morris Pratt
+      * Boyer-Moore
+      * Rabin-Karp
+
+* **Design Patterns**
+  * GOF Design Patterns
+  * Archiectural Patterns
+  * Dependency Injection
+  * Null Object Pattern
+  * Type Object Pattern
 
 * **Computer Architecture and Organization**
     *  CPU, memory, and I/O devices
@@ -80,16 +119,62 @@
     * Scheduling
     * Concurrency and synchronization
 
+* **System Design**
+  * Horuzontal vs. Vertical Scaling
+  * Load Balancing
+  * Clustering
+  * Caching
+  * CDN
+  * Proxy
+  * CAP Theorem
+  * Queues
+  * Architectural Styles
+  * **API Design**
+    * REST
+    * GraphQL
+    * gRPC
+  * Cloud Design Patterns
+  * Long Polling
+  * Short Polling
+  * Web Sockets
+  * SEE
+
 * **Databases**
-    * Relational databases and SQL
-    * Database design and normalization
-    * NoSQL databases (optional)
+  * SQL vs NoSQL Database
+  * Normalization / Denormalization
+  * Entity-Relationship Model
+  * DDL
+  * DML
+  * DQL
+  * DCL
+  * Locking
+  * ACID Model
+  * CAP Themorem
+  * BASE Model
+  * PACELC
+  * Indexes
+  * Views
+  * Transactions
+  * Stored Procedures
+  * Database Federation
+  * Replication
+  * Sharding
 
 * **Networking**
-    * Network protocols (TCP/IP, HTTP)
-    * Network layers
-    * Basic network security concepts
+    * OSI Model
+    * TCP / IP Model
+    * DNS
+    * HTTP
+    * TLS & HTTPS
+    * Sockets
 
+* **Security**
+  * Public Key Cryptography
+  * Hashing
+  * Encryption
+  * Encoding
+  * Hashing Algorithm
+  * OWASP
 ## **New Topic or Update**
 
 * **Topic Name:** (e.g., Variables and Data Types, Binary Trees)
