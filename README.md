@@ -176,18 +176,12 @@
   * Hashing Algorithm
   * OWASP
 ## **New Topic or Update**
+* **Example Workflow**
+* New Concept: Start studying a topic: "Binary Search Trees."
+* New Branch (Optional): If the concept is large or you want to experiment freely, create a branch from your main branch (e.g., "binary-search-tree").
+* Notes and Code: Create a new markdown file (e.g., "binary_search_tree.md"). Take notes, write down explanations in your own words, and add code examples as you learn.
+* Commit Often: Commit changes as you solidify your understanding or complete sections of your notes.
+* Reflection (Periodically): Write a reflective summary in your README, outlining key takeaways and how this concept fits into your understanding of broader computer science.
+* Merge or Close Branch: If you used a branch, decide whether to merge your work into the main branch or close it if it was just for experimentation.
 
-* **Topic Name:** (e.g., Variables and Data Types, Binary Trees)
-* **Key Concepts:**
-    * (List important concepts, definitions in bullet points)
-* **Code Examples:**
-    * (Add clear, well-commented code snippets demonstrating the concepts)
-* **Gotchas:**
-    * (Note any common mistakes or areas to be mindful of)
-* **Useful Resources:**
-    * (List helpful websites, videos, tutorials, etc.) 
-
-## Let's Connect!
-
-I'd love to collaborate and learn alongside others on this journey. Feel free to contribute, leave comments, or share your own experiences! 
 
