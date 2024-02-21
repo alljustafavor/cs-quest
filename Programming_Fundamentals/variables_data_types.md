@@ -88,7 +88,7 @@ There are three numeric types in Python:
   You can convery from one type to another with the int(), float(), and complex() methods
 
 ## Random Number
-  Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers.
+  Python does not have a ```random()``` function to make a random number, but Python has a built-in module called random that can be used to make random numbers.
   ```python
   import random
   print(random.randrange(1, 10)) # output: a random number between 1 and 9
@@ -136,6 +136,38 @@ print(b[2:5]) # output: "llo"
 Python has a set of built-in methods that you can use on strings.
 
   ### Upper Case
+  The ```upper()``` method returns the string in upper case:
+  ```python
+    a = "Hello, World!"
+    print(a.upper()) # output: "HELLO, WORLD!"
+  ```
+  ### Lower Case
+  The ```lower()``` method returns the string in lower case.
+  ```python
+    a = "Hello, World!"
+    print(a.lower()) # output: "hello, world!"
+  ```
+  ### Remove Whitespace
+  * Whitespace is the space before or after the actual text, and very often you want to remove this space.
+  * The ```strip()``` method removes any whitespace from beginning or end:
+  ```python
+    a = " Hello, World! "
+    print(a.strip()) # output: "Hello, World!"
+  ```
+  ### Replace String
+  The ```replace()``` method replaces a string with another string:
+  ```python
+    a = "Hello, World!"
+    print(a.replace("H", "J")) # output: "Jello, World!"
+  ```
+  ### Split String
+  * The ```split()``` method returns a list where the text between the specified separator become the list items.
+  * The ```split()``` method splits the string into substring if it finds instances of the separator:
+  ```python
+    a = "Hello, World!"
+    print(a.split(",")) # output: ['Hello', ' World!']
+  ```
+  
 
 
 
