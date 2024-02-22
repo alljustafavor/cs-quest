@@ -168,6 +168,170 @@ Python has a set of built-in methods that you can use on strings.
     print(a.split(",")) # output: ['Hello', ' World!']
   ```
   
+## Format Strings
 
+* We cannot combine string and numbers.
+* But We can combine strings and numbers using the ```format()``` method.
+* The ```format()``` method takes the passed arguments, formats them, and places them in the string where the placeholders {}.
+  ```python
+    age = 36
+    txt = "My name is John, and I am {}"
+  ```
+* The ```format()``` method takes unlimited number of arguments, and are placed into the respective placeholders:
+  ```python
+    quantity = 3
+    itemno = 567
+    price = 49.95
+    myorder = "I want {} pieces of item {} for {} dollars."
+  ```
+* Use can use the index numbers {0} to be sure the arguments are placed in the correct placeholders:
+  ```python
+    quantity = 3
+    itemno = 567
+    price = 49.95
+    myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+  ```
 
+## Escape Characters
+* To insert characters that are illegal in string, use an escape character.
+* An escape character is a backslash \ followed by the charactr you want to insert.
+* An example of an illegal  character is a double quote inside a string that is surrounded by double qoutes.
+* \'	Single Quote	
+* \\	Backslash	
+* \n	New Line	
+* \r	Carriage Return	
+* \t	Tab	
+* \b	Backspace	
+* \f	Form Feed	
+* \ooo	Octal value	
+* \xhh	Hex value
 
+## String Methods
+
+* ```capitalize()```
+  * The ```capitalize()``` method return a str where its first charcter is upper case, and the rest is lower case.
+* ```casefold()```
+  * The ```casefold()``` method returns a string where all the characters are lower case.
+  * This method is similar to the ```lower()``` method, but the ```casefold()``` method is stronger, more aggressive, meaning that it will xonvert more characters into lower case, and will find more matches when comparing two strings and both are converted are converted using the ```casefold()```
+* ```center()```
+* ```count()```
+  * The ```count(value, start=0, end=len(str)``` method returns the number of times a specifed value appers in the string:
+    ```python
+      txt = "I love apples, apple are my favorite fruit"
+      x = txt.count("apple") # output: 2
+    ```
+* ```encode()```
+* ```endswith()```
+  * The ```endswith(value, start, end)``` method returns True id the string ends with the specified value, otherwises False:
+    ```python
+      txt = "Hello, welcome to my world."
+      x = txt.endswith(".") # output: True
+    ```
+* ```expandtabs()```
+* ```find()```
+  * The ```find()``` method finds the first occurrence of the specified value.
+  * The ```find()``` method return ```-1``` if the value is not found.
+  * The ```find()``` method is almost the same as the ```index()``` method, the only difference is that index() method raises an exception if the value is not found.
+    ```python
+      txt = "Hello, welcome to my world."
+      x = txt.find("welcome") # output: 7
+    ```
+* ```format()```
+* ```format_map()```
+* ```index()```
+* ```isalnum()```
+* ```isalpha()```
+* ```isascii()```
+* ```isdecimal()```
+* ```isdigit()```
+* ```isidentifier()```
+* ```islower()```
+* ```isnumeric()```
+* ```issapce()```
+* ```istitle()```
+* ```issupper()```
+* ```join()```
+* ```ljust()```
+* ```lower()```
+* ```lstrip()```
+* ```maketrans()```
+* ```partition()```
+* ```replace()```
+* ```rfind()```
+* ```rindex()```
+* ```rjust()```
+* ```rpartition()```
+* ```rsplit()```
+* ```rstrip()```
+* ```split()```
+* ```splitlines()```
+* ```startswith()```
+* ```strip()```
+* ```swapcase()```
+* ```title()```
+* ```translate()```
+* ```upper()```
+* ```zfill()```
+
+# Lists
+
+```python
+my_list = ["apple", "banana", "cherry"]
+```
+
+## List
+* List are used to store multiple items in a single variable.
+* Lisrs are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary.
+
+## List Items
+* List items are ordered, changeable, and allow dulicate values.
+* List items are indexed, the first item has index ```[0]```
+
+## Ordered 
+* When we say that lists are ordered, it means that the items have a defined order, and that order will not change.
+* If you add new items to the list, the new items will be placed at the end of the list.
+* *note*: There are some list methods that will change the order, but in general: the order will not change.
+
+## Changeable
+* The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.
+
+## List Length
+* To determine how many items a list has, use the ```len()``` function:
+
+## Python Collections
+There are four collection data types in Python programming laguage:
+* **List** is a collection which is ordered and changeable. Allows dupes
+* **Tuple** is a cillection which is orderd and unchangeable. Allows dupes
+* **Set** is a collection which is unordered, unchangeable*, and unindexed, No dupes
+* **Dictionary** is a collection which is ordered** and changeable. No dupes
+
+## Access List Items
+
+  ### Negative Indexing
+  * Negative indexing means starting from the end.
+  * ```-1``` refers to the last item, so on etc.
+    
+    ```python
+      thislist = ["apple", "banana", "cherry"]
+      print(thislist[-1]) # output: "cherry"
+    ```
+  ### Range of Indexes
+  * You can specify a range of indexes by specifying where start and where to end the range.
+  * When specifying a range, the return value will be a new list with the specified items.
+
+    ```python
+    thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+    print(thislist[2:5]) # output: "cherry", "orange", "kiwi"
+    ```
+    
+  * By leaving out the *start* value, the range will start at the first item:
+    ```python
+      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+      print(thislist[:4]) # output: "apple", "banana", "cherry", "orange"
+    ```
+
+  * By leaving out the *end* value, the range will go on to the end of the list:
+    ```python
+      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+      print(thislist[2:]) # output: "cherry", "orange", "kiwi", "melon", "mango"
+    ```
