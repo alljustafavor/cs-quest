@@ -335,3 +335,10 @@ There are four collection data types in Python programming laguage:
       thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
       print(thislist[2:]) # output: "cherry", "orange", "kiwi", "melon", "mango"
     ```
+
+    ## Range of Negitive Indexes
+    * Specific negitive indexes if you want to start the search from the end of the list:
+    ```python
+        thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+        print(thislist[-4:-1]) # output: "cherry", "orange", "kiwi", "melon"
+    ```
